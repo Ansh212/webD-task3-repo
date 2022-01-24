@@ -1,0 +1,73 @@
+h1 { background-color: rgb(226, 99, 14);
+    height: 65px;
+    padding: 0 35px;
+   }
+
+.card {box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+       margin:auto;
+       max-width: 300px;
+       height: 90px;
+       border-radius: 10px;
+       background-color: white;
+      }
+
+input {border: none; 
+       outline:none;
+       padding: 7px;
+       width: 285px;
+       border-bottom: 1px solid black;
+      }
+
+textarea {border:none;
+          outline:none;
+          width: 285px;
+          padding: 7px;
+        
+          resize:none;
+    
+}      
+
+ @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+      
+#Site_Name {font-family: 'Courgette', cursive;
+            color: white;
+           }
+
+body {margin: 0;
+      background-image: url("G:/bulb.jpg");
+}
+
+.addition { border-radius: 50%;
+            color: white;
+            background-color: orange;
+            border:none;
+            width: 36px;
+            height: 36px;
+            font-size: 20px;
+                         
+}
+
+.notes {
+      background: #fff;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px #ccc;
+          width: 150px;
+         margin: 10px;
+          
+  }
+
+  .delete {
+      position: flex;
+      border-radius: 50%;
+      font-size: 20px;
+      color: rgb(245, 245, 245);
+      background-color: rgba(255, 123, 0, 0.911);
+      border:none;
+      outline: none;
+  }
+  
+  .third {
+      margin:10px 10px 10px 10px;
+      display: flex;
+      
+  }
